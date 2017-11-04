@@ -20,8 +20,8 @@ Download the "tiles" shapefile <a href="https://github.com/khufkens/daymetr/tree
 <pre lang='rsplus'>
 setwd("/guru-blard/DAYMET")
 
-param = c("vp", "tmin", "tmax", "swe", "srad", "prcp", "dayl") %see here https://daymet.ornl.gov/overview.html for the available variable
-tiles=c(11922:11925, 11742:11745) %id of the tiles of interest (cfr shapefile)
+param = c("vp", "tmin", "tmax", "swe", "srad", "prcp", "dayl") #see here https://daymet.ornl.gov/overview.html for the available variable
+tiles=c(11922:11925, 11742:11745) #id of the tiles of interest (cfr shapefile)
 year_range=1985:2015
 
 for (i in year_range) {
