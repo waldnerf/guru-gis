@@ -18,7 +18,7 @@ Interested in meteorological data over US ? Here is a way to easily download Day
 Download the "tiles" shapefile <a href="https://github.com/khufkens/daymetr/tree/master/tiles">here</a>.
  
 <pre lang='rsplus'>
-setwd("/bite/guru-blard/DAYMET")
+setwd("/guru-blard/DAYMET")
 
 param = c("vp", "tmin", "tmax", "swe", "srad", "prcp", "dayl") %see here https://daymet.ornl.gov/overview.html for the available variable
 tiles=c(11922:11925, 11742:11745) %id of the tiles of interest (cfr shapefile)
