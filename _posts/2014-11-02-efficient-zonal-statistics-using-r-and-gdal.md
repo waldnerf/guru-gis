@@ -15,6 +15,8 @@ Holà crazy GIS lovers,
 
 This function allows to compute <a href="http://resources.arcgis.com/en/help/main/10.1/index.html#//009z000000w7000000">zonal statistics</a> of a raster using a 'zonal shapefile' and to add an attribute to this shapefile with the result of the statistics for each zone. 
 
+UPDATE: The function has been implemented in the <a href="https://www.rdocumentation.org/packages/Rnightlights/versions/0.1.2/topics/ZonalPipe">Rnightlight</a> R package.
+
 <pre lang="rsplus">
 library(raster)
 
