@@ -18,6 +18,7 @@ This function allows to compute <a href="http://resources.arcgis.com/en/help/mai
 <pre lang="rsplus">
 library(raster)
 
+# source: https://stat.ethz.ch/pipermail/r-sig-geo/2013-February/017475.html
 myZonal <- function (x, z, stat, digits = 0, na.rm = TRUE, 
                       ...) { 
   library(data.table)
