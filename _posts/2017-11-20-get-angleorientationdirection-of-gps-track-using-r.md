@@ -37,6 +37,7 @@ angle <- function(pt1, pt2) {
 
 library(rgdal)
 library(raster)
+library(data.table)
 
 #Set folder
 setwd("/home/GuruBlard/gpx/")
@@ -49,7 +50,7 @@ for (filename in filenames){
   # Load the GPX
   
   #ogrListLayers("export.gpx")
-  gpx.trackpoints <- readOGR(dsn = "export.gpx",  layer= "track_points", stringsAsFactors = F)
+  gpx.trackpoints <- readOGR(dsn = filename,  layer= "track_points", stringsAsFactors = F)
   
   # Extract the coordinates as a matrix:
   gpx.tp <- coordinates(gpx.trackpoints)
